@@ -4,20 +4,51 @@
 
 h1
 {
-    color:lightblue
+    color:#b54b3b;
+    text-align: center;
+    text-decoration: rgb(228, 118, 84) underline;
 }
 
-
-li 
+h2, h3 
 {
-    color: blue;
+    color:#b54b3b;
 }
 
 body
 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
-    background-color: lightgreen;
+    background-color: #ede7de;
+    color: white;
 }
 
+#ejerciciossinindex
+{
+    color:#cc6f61 ;
+    font-weight: bolder;
+}
+
+a
+{
+    color: #cc6f61;
+    text-decoration:rgb(0, 0, 0) underline;
+    font-weight: bolder;
+}
+
+p
+{
+    color: #0c2327;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+  }
 
 
+--text: #0c2327;
+--background: #f0f9fa;
+--primary: #cc6f61;
+--secondary: #cdeaef;
+--accent: #b54b3b;
