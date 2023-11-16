@@ -1,4 +1,10 @@
-/* etiqueta {atributo: valor} */
+html{
+--text: #0c2327;
+--background: #ede7de;
+--primary: #cc6f61;
+--secondary: #cdeaef;
+--accent: #b54b3b;
+}
 
 .imgcomprobante
 {
@@ -36,12 +42,12 @@ table
 {
     text-decoration: underline;
     font-weight: bold;
-    color:#cc6f61
+    color:var(--primary);
 }
 
 dt
 {
-    color:#b54b3b;
+    color:var(--accent);
     font-size: x-large;
     font-weight: bold;
     padding: 9px;
@@ -49,7 +55,7 @@ dt
 
 h1
 {
-    color:#b54b3b;
+    color:var(--accent);
     text-align: center;
     text-decoration: rgb(228, 118, 84) underline;
 }
@@ -66,43 +72,43 @@ h1
 
 h2, h3 
 {
-    color:#b54b3b;
+    color:var(--accent);
 }
 
 body
 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
-    background-color: #ede7de;
-    color: black;
+    background-color: var(--background);
+    color: var(--text);
 }
 
 #ejerciciossinindex
 {
-    color:#cc6f61 ;
+    color:var(--primary) ;
     font-weight: bolder;
 }
 
 a
 {
-    color: #cc6f61;
+    color: var(--primary);
     text-decoration:rgb(0, 0, 0) underline;
     font-weight: bolder;
 }
 
 p
 {
-    color: #0c2327;
+    color: var(--text);
 }
 
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100px;
-}  
+}
 
---text: #0c2327;
---background: #f0f9fa;
---primary: #cc6f61;
---secondary: #cdeaef;
---accent: #b54b3b;
+#logoproven
+{
+    width: 100px;
+}
+
+
