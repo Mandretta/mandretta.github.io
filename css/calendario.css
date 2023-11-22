@@ -5,6 +5,19 @@ html
     --primary: #cc6f61;
     --secondary: #cdeaef;
     --accent: #b54b3b;
+    --bardaji: #d2df5d;
+    --duran: #52b0bd;
+    --gomez: #ac61bb;
+    --campaña: #9e4343;
+    --montesinos: #6ca75b;
+    --border: #000000;
+    --tutoria: #be853a;
+}
+
+@font-face 
+{
+    font-family: FuenteLocal;
+    src: url("../fonts/Quicksand/Quicksand.ttf");
 }
 
 table
@@ -13,11 +26,19 @@ table
     margin-right: auto;
 }
 
-table, td, th
+table
 {
-    border-width: 2px;
-    border-style: solid;
+    border-width: 6px;
+    border-style:double;
     border-collapse: collapse;
+    border-color: var(--border);
+}
+
+th
+{
+    border-width: 5px;
+    border-style:outset;
+    border-collapse:collapse;
 }
 
 .logoproven
@@ -26,6 +47,10 @@ table, td, th
     height: 50px;
 }
 
+.tutortext
+{
+    text-decoration: underline;
+}
 
 .tdizquierda
 {
@@ -33,20 +58,26 @@ table, td, th
     background-color: var(--primary);
     text-align: center;
     padding: 10px;
+    border-width: 5px;
+    border-style:outset;
+    border-collapse: collapse;
 }
 
+.conjunto
+{
+    vertical-align: middle;
+}
+
+th, td
+{
+    height: 32px;
+    width: 150px;
+    padding: 10px;
+}
 
 th
 {
-    height: 20px;
-    width: 100px;
-    padding: 10px;
     background-color: var(--primary);
-}
-
-.or24
-{
-    text-align: end;
 }
 
 .asignatura
@@ -55,10 +86,72 @@ th
     font-weight: bold;
 }
 
+.bardaji
+{
+    font-family: FuenteLocal;
+    background-color: var(--bardaji);
+    font-size: 8px;
+}
+
+.tutoria
+{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: var(--tutoria);
+    font-size: 14px;
+}
+
+.imgcomprobante
+{
+    width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+
+#linkindex
+{
+    color: var(--primary);
+    text-decoration:rgb(0, 0, 0) underline;
+    font-weight: bolder;
+}
+
+.campaña
+{
+    font-family: Oswald;
+    background-color: var(--campaña);
+    font-size: 15px;
+}
+
+.gomez
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--gomez);
+    font-size: 10px;
+}
+
+.duran
+{
+    background-color: var(--duran);
+    font-family: monospace;
+    font-size: 25px;
+}
+
+.montesinos
+{
+    background-color: var(--montesinos);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+}
+
 td
 {
     font-size: small;
     vertical-align: top;
+    text-align: center;
+    border-width: 2px;
+    border-style:solid;
+    border-collapse: collapse;
 }
 
 h1
@@ -66,6 +159,14 @@ h1
     color:var(--accent);
     text-align: center;
     text-decoration: rgb(228, 118, 84) underline;
+}
+
+#descans
+{
+    text-align: center;
+    font-weight: bolder;
+    vertical-align: middle;
+    font-size: 30px ;
 }
 
 body
@@ -77,10 +178,4 @@ body
 p
 {
     color: var(--text);
-}
-
-.or24
-{
-    font-style: italic;
-
 }
