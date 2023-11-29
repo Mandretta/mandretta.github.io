@@ -9,19 +9,57 @@
 </head>
 <body>
     <h1>Currículum</h1>
-    <div class="form">
     <form action="../php/form.php">  
-        <fieldset class="fieldsetverde">
+        <fieldset class="backgroundverde">
             <legend>Información básica</legend>
-            <label for="Nombre">Nombre <br></label>
-            <input type="text" id="nombre" value="Indica tu nombre">
+            <label for="nombre">Nombre <br></label>
+            <input name="nombre" type="text" id="nombreform" value="Indica tu nombre">
             <br><br>
             <label for="altura">Altura en centimetros <br></label>
-            <input type="number" id="numero">
+            <input name="altura" type="number" id="numeroform" value="0">
             <br><br>
-            <label for=""></label>
+            <label for="email">Email <br></label>
+            <input name="email" id="emailform" type="text" value="tuemail@dominio.com">
+            <br><br>
+            <label for="fecha">Fecha de Nacimiento <br></label>
+            <input type="date" name="fecha">
+        </fieldset>
+        <fieldset class="backgroundamarillo">
+            <legend>Nacionalidad</legend>
+            <input type="radio" name="nacionalidad">
+            <label for="España">España</label>
+            <input type="radio" name="nacionalidad">
+            <label for="comuintario">Comunitario (UE)</label>
+            <input type="radio" name="nacionalidad">
+            <label for="nocom">No comunitario</label>
+        </fieldset>
+        <fieldset class="backgroundnaranja">
+            <legend>Estudios</legend>
+            <select name="estudios" id="">
+                <option value="GM">Grado Medio</option>
+                <option value="GS">Grado Superior</option>
+                <option value="Universidad">Universidad</option>
+                <option value="ESO">ESO</option>
+                <option value="Primária">Primária</option>
+            </select>
+        </fieldset>
+        <fieldset class="backgroundcian">
+            <legend>Idiomas</legend>
+            <input type="checkbox" name="idiomas">
+            <label for="idiomas">Catalán</label>
+            <input type="checkbox" name="idiomas">
+            <label for="idiomas">Castellano</label>
+            <input type="checkbox" name="idiomas">
+            <label for="Ingles">Inglés</label>
+            <input type="checkbox" name="idiomas">
+            <label for="idiomas">Chino</label>
+        </fieldset>
+        <br>
+        <fieldset class="backgroundgris">
+            <input id="enviarcancelar" type="submit" value="Enviar">
+            <input id="enviarcancelar" type="button" name="Cancelar" value="Cancelar">
         </fieldset>
     </form>
-</div>
+    <a id="linkindex" href="../index.html"><br>Volver al índice</a>
 </body>
 </html>
