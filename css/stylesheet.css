@@ -4,6 +4,52 @@ html{
 --primary: #cc6f61;
 --secondary: #cdeaef;
 --accent: #b54b3b;
+--amarillo: #d2df5d;
+--cian: #52b0bd;
+--morado: #ac61bb;
+--naranjaoscuro: #9e4343;
+--verde: #6ca75b;
+--negrofull: #000000;
+--naranja: #be853a;
+}
+
+form {
+    padding: 20px;
+}
+
+fieldset
+{
+    margin: auto;    
+    padding: 10px;
+    width: 620px;
+}
+
+.fieldsetverde
+{
+    background-color:var(--amarillo)
+}
+
+#nombre
+{
+    width:600px;
+    padding: 7px;
+}
+
+legend
+{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+#numero
+{
+    padding: 3px;
+}
+
+input
+{
+    color:grey;
+    font-weight: lighter;
 }
 
 .imgcomprobante
