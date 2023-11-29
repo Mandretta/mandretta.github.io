@@ -10,9 +10,14 @@ html{
 --naranjaoscuro: #9e4343;
 --verde: #6ca75b;
 --negrofull: #000000;
---naranja: #be853a;
+--naranja: #be803a;
+--gris: #888888;
 }
 
+#emailform
+{
+    width: 220px;
+}
 form {
     padding: 20px;
 }
@@ -23,13 +28,47 @@ fieldset
     padding: 10px;
     width: 620px;
 }
-
-.fieldsetverde
+ 
+.backgroundamarillo
 {
-    background-color:var(--amarillo)
+    background-color: var(--amarillo);
 }
 
-#nombre
+#enviarcancelar
+{
+    font-weight: bolder;
+    color: #000000;
+    height: auto;
+    width: 80px;
+}
+.backgroundgris
+{
+    background-color: var(--gris);
+}
+
+
+.backgroundcian
+{
+    background-color: var(--cian);
+}
+
+
+.backgroundnaranjadark
+{
+    background-color: var(--naranjaoscuro);
+}
+
+.backgroundnaranja
+{
+    background-color: var(--naranja);
+}
+
+.backgroundverde
+{
+    background-color:var(--verde)
+}
+
+#nombreform
 {
     width:600px;
     padding: 7px;
@@ -39,9 +78,10 @@ legend
 {
     text-decoration: underline;
     font-weight: bolder;
+    font-size: larger;
 }
 
-#numero
+#numeroform
 {
     padding: 3px;
 }
