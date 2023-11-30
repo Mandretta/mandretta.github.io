@@ -34,13 +34,14 @@ fieldset
     background-color: var(--amarillo);
 }
 
-#enviarcancelar
+#enviar, #cancelar
 {
     font-weight: bolder;
     color: #000000;
     height: auto;
     width: 80px;
 }
+
 .backgroundgris
 {
     background-color: var(--gris);
@@ -79,6 +80,22 @@ legend
     text-decoration: underline;
     font-weight: bolder;
     font-size: larger;
+}
+
+#lformacion, #lidiomas, #lnacionalidad
+{
+    font-style: italic;
+    color: blue;
+}
+
+#lidiomas
+{
+    color: red;
+}
+
+#lnacionalidad
+{
+    color: orange;
 }
 
 #numeroform
