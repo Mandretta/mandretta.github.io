@@ -1,0 +1,152 @@
+html{
+    --text: #0c2327;
+    --background: #ede7de;
+    --primary: #cc6f61;
+    --secondary: #cdeaef;
+    --accent: #b54b3b;
+    --amarillo: #d2df5d;
+    --cian: #52b0bd;
+    --morado: #ac61bb;
+    --naranjaoscuro: #9e4343;
+    --verde: #6ca75b;
+    --negrofull: #000000;
+    --naranja: #be803a;
+    --gris: #888888;
+}
+
+h1
+{
+ color:var(--accent);
+ text-align: center;
+ text-decoration: rgb(228, 118, 84) underline;
+}
+    
+h2, h3 
+{
+ color:var(--accent);
+}
+    
+body
+{
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+ background-color: var(--background);
+ color: var(--text);
+}   
+         
+    
+div
+{
+    border: solid 1px black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#principal
+{
+    border: solid 3px red;
+    width: 600px;
+    height: 600px;
+}
+
+.backgroundnegro
+{
+    background-color: black;
+}
+
+#c1
+{
+    float: left;
+    width: 66%;
+    height: 100px;
+    background-color: rgb(31, 197, 31);
+}
+
+#c2
+{
+    float: right;
+    width: 33%;
+    height: 100px;
+    background-color: rgb(135, 228, 135);
+}
+
+#c3
+{
+    float: left;
+    width: 33%;
+    height: 200px;
+    background-color: #000000;
+}
+
+#c4
+{
+    float: left;
+    width: 33%;
+    height: 200px;
+    background-color: rgb(135, 228, 135);
+}
+
+#c5
+{
+    float: right;
+    height: 100px;
+    width: 32.8%;
+    background-color: rgb(31, 197, 31);
+}
+
+#c6
+{
+    float: right;
+    width: 32.8%;
+    height: 100px;
+    background-color: rgb(135, 228, 135);
+}
+
+#c7
+{
+    float: left;
+    width: 66%;
+    height: 100px;
+    background-color: rgb(31, 197, 31);
+}
+
+#c8
+{
+    float: right;
+    width: 33%;
+    height: 200px;
+    background-color: #000000;
+}
+
+#c9
+{
+    float: left;
+    width: 66%;
+    height: 100px;
+    background-color: rgb(135, 228, 135);    
+}
+
+#c10
+{
+    float: left;
+    width: 33%;
+    height: 90px;
+    background-color: rgb(31, 197, 31);
+}
+
+#c11
+{
+    float: left;
+    width: 33%;
+    height: 90px;
+    background-color: rgb(135, 228, 135) ;
+}
+
+#c12
+{
+    float: right;
+    width: 32.6%;
+    height: 90px;
+    background-color: rgb(31, 197, 31);
+    
+}
