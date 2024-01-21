@@ -34,15 +34,14 @@ h2, h3
 {
  color:var(--accent);
 }
-    
+
 body
 {
  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
  background-color: var(--background);
  color: var(--text);
 }   
-         
-    
+
 div
 {
     border: solid 1px black;
@@ -52,118 +51,102 @@ div
 }
 
 #principal
-{
-    border: solid 3px red;
+{   
+    position: relative;
     width: 600px;
     height: 600px;
-}
-
-#conjunto1
-{
-    float: left;
-    width: 400px;
-    height: 600px;
+    border: 2px solid red;
 }
 
 #c1
 {
-   float: left;
-   width: 400px;
-   height: 100px;
-   background-color: var(--verde);
-}
-
-#c3
-{
-    float: left;
-    width: 200px;
-    height: 200px;
-    background-color: black;
-}
-
-#c4
-{
-    float: right;
-    width: 196px;
-    height: 300px;
-    background-color: var(--verde);
-}
-
-#c7
-{
-    float: left;
-    width: 200px;
-    height: 100px;
-    background-color: var(--verde);
-}
-
-#c9
-{
-    float: left;
-    width: 200px;
-    height: 191px;
-    background-color: black;
-}
-
-#c10
-{
-    float: right;
-    width: 196px;
-    height: 100px;
+    position: absolute;
+    width: 598px;
+    height: 85px;
     background-color: var(--claroverde);
-}
-
-#c11
-{
-    float: right;
-    width: 196px;
-    height: 91px;
-    background-color: var(--claroverde);
-}
-
-#conjunto2
-{
-    float: right;
-    width: 196px;
-    height: 600px;
 }
 
 #c2
 {
-   float: right;
-   width: 193px;
-   height: 100px;
-   background-color: var(--claroverde);
+    position: absolute;
+    width: 200px;
+    height: 85px;
+    top: 85px;
+    background-color: var(--verde);
+}
+
+#c3
+{
+    position: absolute;
+    width: 200px;
+    height: 85px;
+    top: 170px;
+    background-color: var(--claroverde);
+}
+
+#c4
+{
+    position: absolute;
+    width: 200px;
+    height: 85px;
+    top: 255px;
+    background-color: var(--verde);
 }
 
 #c5
 {
-    float: right;
-    width: 193px;
-    height: 100px;
-    background-color: var(--verde);
+    position: absolute;
+    width: 398px;
+    height: 255px;
+    left: 200px;
+    top: 85px;
+    background-color: var(--cian);
 }
 
 #c6
 {
-    float: right;
-    width: 193px;
-    height: 100px;
+    position: absolute;
+    width: 200px;
+    height: 170px;
+    top: 340px;
+    background-color: black;
+}
+
+#c7
+{
+    position: absolute;
+    width: 200px;
+    height: 85px;
+    top: 340px;
+    left: 200px;
     background-color: var(--claroverde);
 }
 
 #c8
 {
-    float: right;
-    width: 193px;
-    height: 200px;
-    background-color: black;
+    position: absolute;
+    width: 200px;
+    height: 85px;
+    top: 425px;
+    left: 200px;
+    background-color: var(--verde);
 }
 
-#c12
+#c9
 {
-    float: right;
-    width: 193px;
-    height: 90px;
-    background-color: var(--verde);
+    position: absolute;
+    width: 198px;
+    height: 258px;
+    top: 340px;
+    left: 400px;
+    background-color: var(--claroverde);
+}
+
+#c10
+{
+    position: absolute;
+    width: 400px;
+    height: 88px;
+    top: 510px;
+    background-color: var(--claroverde);
 }
