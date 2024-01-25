@@ -1,0 +1,194 @@
+html{
+    --text: #0c2327;
+    --background: #e9b6b6;
+    --primary: #cc6f61;
+    --secondary: #cdeaef;
+    --accent: #b54b3b;
+    --amarillo: #d2df5d;
+    --cian: #52b0bd;
+    --morado: #ac61bb;
+    --naranjaoscuro: #9e4343;
+    --verde: #6ca75b;
+    --negrofull: #000000;
+    --naranja: #be803a;
+    --gris: #888888;
+}
+
+a
+{
+    color: var(--primary);
+    text-decoration:rgb(0, 0, 0) underline;
+    font-weight: bolder;
+}
+
+h1
+{
+ color:var(--accent);
+ text-align: center;
+ text-decoration: rgb(228, 118, 84) underline;
+}
+    
+h2, h3 
+{
+ color:var(--accent);
+}
+
+h2
+{
+
+}
+    
+body
+{
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+ background-color: var(--background);
+ color: var(--text);
+}   
+
+.sinraya
+{
+    text-decoration: none;
+}
+
+#principal
+{
+    width: 100%;
+    height: 820px;
+}
+
+#titulo
+{
+    font-size: 150%;
+    text-align: center;
+}
+
+header
+{
+    font-size: 40px;
+    border: 15px black solid;
+    height: 25%;
+    background-color:#e6bc7d;
+}
+
+#lista1 li {
+    display:inline;
+    padding-left:3px;
+    padding-right:3px;
+}
+
+#logo
+{
+    float: left;
+    height: 67%;
+    width: 11%;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+
+nav
+{
+    background-color: #cbffd8;
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+
+main
+{
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-color: #fdb2a0;
+}
+
+article
+{
+    float: left;
+    width: 25%;
+    height: 100%;
+    border-radius: 40px;
+    background-color: #3e7983;
+}
+
+#katarina
+{
+    height: 650px;
+    width: 320px;
+    margin: auto;
+    display: block;
+}
+
+#katarinatext
+{
+    text-align: center;
+    font-weight: 1000;
+    color: #ff0800;
+}
+
+p
+{
+    background-color: #ececec;
+}
+
+p:hover
+{
+    background-color: white;
+}
+
+#gatito
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+footer
+{   
+    height: 20%;
+    width: 33%;
+    float: left;
+}
+
+#f1
+{
+    background-color: rgb(219, 243, 131);
+    text-align: center;
+}
+#f2
+{
+    background-color: rgb(248, 198, 60);
+}
+#f3
+{
+    background-color: rgb(219, 243, 131);
+}
+
+#mandretta
+{
+    text-align: center;
+}
+
+#g1
+{
+    position: relative;
+    width: 33%;
+    height: 80%;
+    margin-left: 2%;
+}
+
+#g2
+{
+    position: absolute;
+    width: 13%;
+    height: 14.2%;
+    right: 46%;
+}
+
+#g3
+{
+    position: absolute;
+    width: 13%;
+    height: 14.2%;
+    right: 40%;
+}
