@@ -1,0 +1,78 @@
+div
+{
+    width: 830px;
+}
+
+header
+{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 60% 40%;
+    border: 2px solid black;
+}
+
+#header1
+{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    width: 100%
+}
+
+#header2
+{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    width: 100%;
+}
+
+section
+{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 18% 38% 18% 18% 8%;
+    border: 2px solid;
+}
+
+#sirius
+{
+    grid-column: 1 / 4;
+    grid-row: 1 / 2 ;
+    width: 100%;
+}
+
+#izquierda1
+{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    width: 100%;
+    border: 2px solid;
+}
+
+#sighted
+{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3 ;
+    width: 100%;
+}
+
+#derecha1
+{
+    grid-column: 3 / 4;
+    grid-row: 2 / 4;
+    width: 100%;
+}
+
+#izquierda2
+{
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    width: 100%;
+    border: 2px solid;
+}
+
+#gifrandom
+{
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    width: 480px;
+}
